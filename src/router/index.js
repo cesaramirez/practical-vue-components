@@ -15,6 +15,11 @@ const routes = [
     name: 'smooth',
     component: () => import(/* webpackChunkName: "smooth" */ '@/views/Smooth.vue'),
   },
+  {
+    path: '/dropdown',
+    name: 'dropdown',
+    component: () => import(/* webpackChunkName: "dropdown" */ '@/views/Dropdown.vue'),
+  },
 ];
 
 const router = new VueRouter({

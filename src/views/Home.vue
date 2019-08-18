@@ -14,6 +14,9 @@
       <li class="text-blue-500 hover:text-green-500 tracking-wide font-bold text-lg">
         <router-link to="/smooth">Smooth Scrolling</router-link>
       </li>
+      <li class="text-blue-500 hover:text-green-500 tracking-wide font-bold text-lg">
+        <router-link to="/dropdown">Dropdown Menu</router-link>
+      </li>
     </ul>
   </div>
 </template>
